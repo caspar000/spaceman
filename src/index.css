@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+h6 {
+  @apply text-sm font-normal leading-6 text-[#84788E];
+}
+
+h2 {
+  @apply text-[32px] font-medium leading-[40px] text-[#1D1028] max-sm:text-[24px] max-sm:leading-[32px];
+}
+
+p, li {
+  @apply text-base font-semibold leading-6 text-[#1D1028] max-sm:text-sm;
+}
