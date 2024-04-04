@@ -12,7 +12,7 @@ export const WelcomePage = () => {
       </header>
       <Container className="my-10">
         <Card>
-          <h2>Game Concept</h2>
+          <h2>About Project</h2>
           <p className="mt-[10px]">
             &quot;Spaceman&quot; by Pragmatic is a groundbreaking space mission
             poised to revolutionize our understanding of Mars. The mission

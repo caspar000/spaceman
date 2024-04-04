@@ -19,3 +19,19 @@ h2 {
 p, li {
   @apply text-base font-semibold leading-6 text-[#1D1028] max-sm:text-sm;
 }
+
+.button-primary {
+  border-radius: var(--Radius-Radius-XL, 32px);
+  border-top: 1px solid rgba(255, 255, 255, 0.50);
+  background: linear-gradient(180deg, #D10396 0%, #9B006F 100%);
+  box-shadow: 0px 7px 0px 0px #7A0F5C;
+}
+
+.button-secondary {
+  border-radius: var(--Radius-Radius-XL, 32px);
+  background: rgba(17, 4, 37, 0.75);
+}
+
+.button-secondary:hover {
+  background: rgba(17, 4, 37, 1);
+}
